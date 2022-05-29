@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UberApp.Vistas.Registro.CompletarRegistro"
+             Visual="Material"
+             >
+    <StackLayout BackgroundColor="White"
+                 Padding="5"
+                 >
+        <Label Text="Confirma tu informacion"
+               TextColor="Black"
+               FontSize="Medium"
+               />
+
+        <Grid ColumnDefinitions="*,*">
+            <Frame BackgroundColor="#EEEEEE"
+                   HasShadow="False"
+                   CornerRadius="10"
+                   Padding="5"
+                   Margin="0,0,10,0"
+                   >
+                <Entry Placeholder="Ingresa tu nombre"
+                       BackgroundColor="#EEEEEEE"
+                       />
+                
+            </Frame>
+            <Frame BackgroundColor="#EEEEEE"
+                   HasShadow="False"
+                   CornerRadius="10"
+                   Padding="5"
+                   Grid.Column="1"
+                   >
+                <Entry Placeholder="Ingresa tu Apellido"
+                       BackgroundColor="#EEEEEEE"
+                 />
+
+            </Frame>
+           
+        </Grid>
+
+        <StackLayout Orientation="Horizontal" Margin="0,8,0,0" >
+            <Frame BackgroundColor="#EEEEEE" CornerRadius="10" HasShadow="False">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://i.ibb.co/5jZVPZ8/triangulo.png" 
+                        HeightRequest="9"
+                           
+                           />
+                </StackLayout>
+            </Frame>
+            <Frame HorizontalOptions="FillAndExpand"
+                   Padding="10,5"
+                   CornerRadius="8"
+                   HasShadow="false"
+                    BackgroundColor="#EEEEEE"
+                   >
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="+593"  
+                           TextColor="Black" FontSize="Medium"
+                           VerticalOptions="Center"
+                           BackgroundColor="#EEEEEE"
+                           />
+                    <Entry
+                        BackgroundColor="#EEEEEE"
+                        Placeholder="Numero de Movil"
+                        HorizontalOptions="FillAndExpand"
+                        Keyboard="Telephone"
+                        >
+                        
+                    </Entry>
+                    
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout
+        Orientation="Horizontal"   
+            VerticalOptions="EndAndExpand"
+        >
+            <Frame BackgroundColor="#EEEEEE"
+                   CornerRadius="35"
+                   HasShadow="False"
+                   VerticalOptions="Center"
+                   >
+                <Image
+                    Source="https://i.ibb.co/b1QD1Kp/flechaizquierda.png"
+                    HeightRequest="30"
+                    />
+            </Frame>
+            <Frame HorizontalOptions="EndAndExpand"
+                  Margin="0,20"
+                   BackgroundColor="Black"
+                   CornerRadius="30"
+                   Padding="15"
+                  >
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Siguiente" 
+                        BackgroundColor="Black"  
+                        TextColor="White"
+                        TextTransform="None"
+                        FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       
+                        />
+
+                    <Image Source="https://i.ibb.co/X4jwtzK/feclablanca.png" 
+                       HeightRequest="30"
+                       HorizontalOptions="End"
+                       Margin="0,0,10,0"
+                       />
+                </StackLayout>
+               
+            </Frame>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

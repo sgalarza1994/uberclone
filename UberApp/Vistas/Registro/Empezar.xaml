@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UberApp.Vistas.Registro.Empezar"
+             NavigationPage.HasNavigationBar="False"
+             
+             >
+    <Grid BackgroundColor="#276EF1">
+        <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand"
+                         Spacing="60"
+                         >
+                <Label Text="Uber" TextColor="White"  
+                   HorizontalOptions="Center"
+                   FontSize="40"
+                
+                       />
+
+                <Image 
+             Source="https://i.ibb.co/GRTbxgq/conductor.png"
+             HeightRequest="150"   
+                
+             />
+
+                <Label Text="Viaja con seguridad" TextColor="White"  
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   FontSize="35"
+             />
+            </StackLayout>
+
+
+            <Grid VerticalOptions="EndAndExpand"
+                  Margin="20"
+                  >
+                <Button Text="Empezar" 
+                        BackgroundColor="Black"  
+                        TextColor="White"
+                        TextTransform="None"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        Command="{Binding IrCrearCuentaCommand}"
+                        />
+
+                <Image Source="https://i.ibb.co/X4jwtzK/feclablanca.png" 
+                       HeightRequest="30"
+                       HorizontalOptions="End"
+                       Margin="0,0,18,0"
+                       />
+            </Grid>
+        </StackLayout>
+    </Grid>
+</ContentPage>

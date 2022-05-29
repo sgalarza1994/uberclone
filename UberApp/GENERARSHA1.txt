@@ -1,0 +1,16 @@
+C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin keytool.exe 
+
+
+keytool-exe -list -v -keystore
+"C:\Users\Developer\AppData\Local\Xamarin\Mono for Android debug.keystore"
+-alias androiddebugkey -storepass android -keypass android
+
+
+
+
+SHA1 = F8:72:90:4A:9A:D7:67:DF:52:46:A8:AE:D5:B0:D4:4D:F9:B2:42:F4
+
+
+sha256 84:55:46:48:4B:37:EA:62:B0:CC:46:F8:63:7C:A2:A2:42:58:A5:AE:90:D2:01:BF:8B:BA:DE:C5:FB:62:19:57
+
+
