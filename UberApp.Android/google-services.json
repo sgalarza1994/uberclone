@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "252980560484",
+    "project_id": "uberapp-curso-21c22",
+    "storage_bucket": "uberapp-curso-21c22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252980560484:android:ace5a4e911333af1add571",
+        "android_client_info": {
+          "package_name": "com.dtsecuador.uberapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252980560484-pqfp0tv56gu24kr0m5jui6f10lhm1jug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dtsecuador.uberapp",
+            "certificate_hash": "f872904a9ad767df5246a8aed5b0d44df9b242f4"
+          }
+        },
+        {
+          "client_id": "252980560484-amgac7r0s3fkg78g98i03h3bgn6o2745.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL2PzP4gcQ0idyF1UBrwHNvJBh-Sz-W_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252980560484-amgac7r0s3fkg78g98i03h3bgn6o2745.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
